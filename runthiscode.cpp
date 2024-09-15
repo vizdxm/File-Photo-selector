@@ -48,5 +48,8 @@ int main () {
   for(int i=0;i<id.size();i++)
     if(i!=0 && id[i]!=id[i-1])
       print(id[i],des);
+  while(true) {
+  	cin >> des;
+  }
   return 0;
 }
