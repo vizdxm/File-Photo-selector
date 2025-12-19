@@ -1,7 +1,6 @@
 import os
 import shutil
 
-
 allf = os.listdir()
 fbylen= dict()
 for i in allf:

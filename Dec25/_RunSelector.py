@@ -14,7 +14,12 @@ if len(fbylen[15])==1:
     del fbylen[15]
 else:
     fbylen[15].remove("_RunSelector.py")
+if len(fbylen[14])==1:
+    del fbylen[14]
+else:
+    fbylen[14].remove("_runsource.bat")
     
+
 
 def findse(x):
     variance = []
