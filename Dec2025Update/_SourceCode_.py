@@ -13,11 +13,11 @@ if "_Selected_Files" in fbylen[15]:
 if len(fbylen[15])==1:
     del fbylen[15]
 else:
-    fbylen[15].remove("_RunSelector.py")
-if len(fbylen[14])==1:
-    del fbylen[14]
+    fbylen[15].remove("_SourceCode_.py")
+if len(fbylen[17])==1:
+    del fbylen[17]
 else:
-    fbylen[14].remove("_runsource.bat")
+    fbylen[17].remove("_Run_Selector.bat")
     
 
 
